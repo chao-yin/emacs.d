@@ -1,6 +1,0 @@
-;; this file contains all setting about ivy mode
-
-(use-package ivy
-  :init
-  
- )
