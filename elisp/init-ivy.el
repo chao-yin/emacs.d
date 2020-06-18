@@ -8,7 +8,7 @@
   (setq enable-recursive-minibuffers t)
   (setq ivy-height 10)
   (setq ivy-initial-inputs-alist nil)
-  (setq ivy-count-format "%d/%d")
+  (setq ivy-count-format "%d/%d  ")
   (setq ivy-re-builders-alist
         `((t . ivy--regex-ignore-order)))
   )
