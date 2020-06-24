@@ -20,16 +20,23 @@
 (require 'init-counsel)
 (require 'init-swiper)
 (require 'init-tramp)
-;;(require 'init-basic)
+(require 'init-basic)
 (require 'init-company)
 (require 'init-windows)
+(require 'init-rime)
+(require 'init-org)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (counsel ivy use-package)))
+ '(custom-safe-themes
+   (quote
+    ("76b4632612953d1a8976d983c4fdf5c3af92d216e2f87ce2b0726a1f37606158" default)))
+ '(package-selected-packages
+   (quote
+    (twilight-bright-theme speed-type rime counsel ivy use-package)))
  '(tramp-default-host "m2.smu.edu")
  '(tramp-default-method "ssh")
  '(tramp-default-user "chaoy"))

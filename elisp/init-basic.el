@@ -1,5 +1,8 @@
 ;;
 
-(defalias 'yes-or-no-p 'y-or-n-p) 
+;;(defalias 'yes-or-no-p 'y-or-n-p) 
 
-(require 'init-basic)
+
+(setq fill-column 60)
+
+(provide 'init-basic)
