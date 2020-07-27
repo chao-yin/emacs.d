@@ -15,6 +15,7 @@
 (require 'use-package)
 
 ;; require modules
+(require 'posframe)
 (require 'init-interface)
 (require 'init-ivy)
 (require 'init-counsel)
@@ -53,3 +54,4 @@
  '(rainbow-delimiters-depth-4-face ((t (:foreground "cyan"))))
  '(rainbow-delimiters-depth-5-face ((t (:foreground "hot pink"))))
  '(rainbow-delimiters-depth-6-face ((t (:foreground "dark blue")))))
+(put 'dired-find-alternate-file 'disabled nil)
