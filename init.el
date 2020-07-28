@@ -32,7 +32,7 @@
 (require 'init-org)
 (require 'init-rainbowdelimiters)
 (require 'init-paredit)
-;;(require 'init-tex)
+(require 'init-auctex)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
