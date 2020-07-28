@@ -4,3 +4,5 @@
 /elpa
 /elisp/*~
 tramp
+/eshell
+/auctex

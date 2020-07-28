@@ -1,7 +1,11 @@
 ;; adding mepla information 
 (require 'package)
-(add-to-list 'package-archives 
-              '("melpa" . "http://elpa.emacs-china.org/melpa/"))
+(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+                        ("melpa" . "http://elpa.emacs-china.org/melpa/")))
+
+;;(add-to-list 'package-archives 
+;;	     '("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+;;	       )
 (package-initialize)
 
 ;; adding the lisp directory        
@@ -28,6 +32,7 @@
 (require 'init-org)
 (require 'init-rainbowdelimiters)
 (require 'init-paredit)
+;;(require 'init-tex)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -39,7 +44,7 @@
     ("76b4632612953d1a8976d983c4fdf5c3af92d216e2f87ce2b0726a1f37606158" default)))
  '(package-selected-packages
    (quote
-    (rainbow-delimiters twilight-bright-theme speed-type rime counsel ivy use-package)))
+    (company-auctex auctex rainbow-delimiters twilight-bright-theme speed-type rime counsel ivy use-package)))
  '(tramp-default-host "m2.smu.edu")
  '(tramp-default-method "ssh")
  '(tramp-default-user "chaoy"))
