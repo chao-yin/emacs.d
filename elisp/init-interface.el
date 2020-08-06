@@ -12,4 +12,5 @@
 (setq inhibit-startup-screen t) ;; inhibit startup screen
 (setq  initial-scratch-message nil)  ;; not display the scratch inital message
 
+
 (provide 'init-interface)

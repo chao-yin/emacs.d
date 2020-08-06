@@ -1,10 +1,14 @@
 __build_info:
   rime_version: 1.5.3
   timestamps:
-    default: 1576692787
-    default.custom: 1595842087
+    default: 1584190865
+    default.custom: 1596642485
+    key_bindings: 1584190865
+    key_bindings.custom: 0
+    punctuation: 1584190865
+    punctuation.custom: 0
     stroke.custom: 0
-    stroke.schema: 1576692787
+    stroke.schema: 1584206825
 abc_segmentor:
   extra_tags:
     - reverse_lookup
@@ -60,8 +64,6 @@ key_binder:
     - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
     - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-    - {accept: "Shift+space", toggle: full_shape, when: always}
-    - {accept: "Control+period", toggle: ascii_punct, when: always}
   import_preset: default
 menu:
   page_size: 9

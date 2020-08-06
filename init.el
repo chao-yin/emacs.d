@@ -19,7 +19,7 @@
 (require 'use-package)
 
 ;; require modules
-(require 'posframe)
+;;(require 'posframe)
 (require 'init-interface)
 (require 'init-ivy)
 (require 'init-counsel)
@@ -33,6 +33,7 @@
 (require 'init-rainbowdelimiters)
 (require 'init-paredit)
 (require 'init-auctex)
+(require 'init-font)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

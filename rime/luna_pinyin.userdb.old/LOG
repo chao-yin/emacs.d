@@ -1,0 +1,8 @@
+2020/08/06-00:16:30.270338 140684954666752 Log #38: 2 ops saved to Table #39 OK
+2020/08/06-00:16:30.270474 140684954666752 Archiving /home/chaos/.emacs.d/rime/luna_pinyin.userdb/000038.log: OK
+2020/08/06-00:16:30.270613 140684954666752 Table #32: 1305 entries OK
+2020/08/06-00:16:30.270646 140684954666752 Table #30: 44 entries OK
+2020/08/06-00:16:30.270688 140684954666752 Table #37: 10 entries OK
+2020/08/06-00:16:30.270703 140684954666752 Table #39: 2 entries OK
+2020/08/06-00:16:30.270765 140684954666752 Archiving /home/chaos/.emacs.d/rime/luna_pinyin.userdb/MANIFEST-000036: OK
+2020/08/06-00:16:30.272614 140684954666752 **** Repaired leveldb /home/chaos/.emacs.d/rime/luna_pinyin.userdb; recovered 4 files; 20810 bytes. Some data may have been lost. ****
