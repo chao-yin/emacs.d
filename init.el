@@ -12,7 +12,7 @@
 (defvar chaos-lisp-dir (expand-file-name "elisp" user-emacs-directory)
  "This directory contains all modules" )
 (add-to-list 'load-path  chaos-lisp-dir)
-
+;;(add-to-list 'load-path (expand-file-name "emacs-application-framework" chaos-lisp-dir)) ;; add the EAF path to the laod-path
 
 (setq use-package-always-demand t)
 (setq use-package-always-ensure t)
@@ -34,6 +34,9 @@
 (require 'init-paredit)
 (require 'init-auctex)
 (require 'init-font)
+(require 'init-dired)
+(require 'init-eaf)
+;;(require 'init-socks)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -45,7 +48,7 @@
     ("76b4632612953d1a8976d983c4fdf5c3af92d216e2f87ce2b0726a1f37606158" default)))
  '(package-selected-packages
    (quote
-    (company-auctex auctex rainbow-delimiters twilight-bright-theme speed-type rime counsel ivy use-package)))
+    (gruvbox-theme company-auctex auctex rainbow-delimiters twilight-bright-theme speed-type rime counsel ivy use-package)))
  '(tramp-default-host "m2.smu.edu")
  '(tramp-default-method "ssh")
  '(tramp-default-user "chaoy"))

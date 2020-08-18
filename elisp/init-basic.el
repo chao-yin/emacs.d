@@ -5,4 +5,6 @@
 
 (setq fill-column 60)
 
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
 (provide 'init-basic)

@@ -1,0 +1,3 @@
+(setq calendar-week-start-day 1)
+
+(holiday-chinese 7 1 )
