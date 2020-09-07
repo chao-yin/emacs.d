@@ -14,6 +14,8 @@
     (set-fontset-font t '(#x4e00 . #x9fff)  "WenQuanYi Micro Hei")))
  )
 
+;;选择区域颜色(the selection region color)
 
+(custom-set-faces '(region ((t (:extend t :background "MistyRose1" :distant-foreground "gtk_selection_fg_color")))))
 
 (provide 'init-font)

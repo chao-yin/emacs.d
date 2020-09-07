@@ -44,23 +44,24 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   (quote
-    ("76b4632612953d1a8976d983c4fdf5c3af92d216e2f87ce2b0726a1f37606158" default)))
+   '("76b4632612953d1a8976d983c4fdf5c3af92d216e2f87ce2b0726a1f37606158" default))
  '(package-selected-packages
-   (quote
-    (gruvbox-theme company-auctex auctex rainbow-delimiters twilight-bright-theme speed-type rime counsel ivy use-package)))
+   '(gruvbox-theme company-auctex auctex rainbow-delimiters twilight-bright-theme speed-type rime counsel ivy use-package))
  '(tramp-default-host "m2.smu.edu")
  '(tramp-default-method "ssh")
  '(tramp-default-user "chaoy"))
-(custom-set-faces
+;;(custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(rainbow-delimiters-depth-1-face ((t (:foreground "red"))))
- '(rainbow-delimiters-depth-2-face ((t (:foreground "gold"))))
- '(rainbow-delimiters-depth-3-face ((t (:foreground "green"))))
- '(rainbow-delimiters-depth-4-face ((t (:foreground "cyan"))))
- '(rainbow-delimiters-depth-5-face ((t (:foreground "hot pink"))))
- '(rainbow-delimiters-depth-6-face ((t (:foreground "dark blue")))))
+;; '(rainbow-delimiters-depth-1-face ((t (:foreground "red"))))
+;; '(rainbow-delimiters-depth-2-face ((t (:foreground "gold"))))
+;; '(rainbow-delimiters-depth-3-face ((t (:foreground "green"))))
+;; '(rainbow-delimiters-depth-4-face ((t (:foreground "cyan"))))
+;; '(rainbow-delimiters-depth-5-face ((t (:foreground "hot pink"))))
+;; '(rainbow-delimiters-depth-6-face ((t (:foreground "dark blue"))))
+;;)
+
+
 (put 'dired-find-alternate-file 'disabled nil)
