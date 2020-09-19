@@ -1,2 +1,6 @@
 var:
+<<<<<<< HEAD
   last_build_time: 1599632805
+=======
+  last_build_time: 1599448206
+>>>>>>> c15dfb0... change the color of selection region and rearrange the files
