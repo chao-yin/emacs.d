@@ -7,4 +7,9 @@
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
+;;(require 'moe-theme)
+;;(setq moe-theme-highlight-buffer-id nil)
+;;(moe-theme-set-color 'red)
+;;(moe-light)
+
 (provide 'init-basic)
