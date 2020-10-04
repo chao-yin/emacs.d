@@ -5,11 +5,10 @@
 /elisp/*~
 tramp
 /eshell
-/auctex
 /eaf
-/recentf
+recentf
 /*~
 /url
-/bookmarks
+bookmarks
 /image-dired
 /transient

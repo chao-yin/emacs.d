@@ -1,5 +1,0 @@
-;;
-
-(fset 'yes-or-no-p 'y-or-n-p) ;; replace yes with y
-
-(require 'init-basic)
