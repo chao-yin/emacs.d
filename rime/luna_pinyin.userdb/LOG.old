@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 2020/09/07-11:10:06.613222 140554244923264 Recovering log #56
 2020/09/07-11:10:06.613698 140554244923264 Level-0 table #59: started
 2020/09/07-11:10:06.616099 140554244923264 Level-0 table #59: 281 bytes OK
 2020/09/07-11:10:06.620579 140554244923264 Delete type=0 #56
 2020/09/07-11:10:06.620673 140554244923264 Delete type=3 #54
 =======
+=======
+>>>>>>> c15dfb0... change the color of selection region and rearrange the files
 2020/09/01-23:04:54.685626 140304118341504 Recovering log #53
 2020/09/01-23:04:54.685683 140304118341504 Level-0 table #55: started
 2020/09/01-23:04:54.689317 140304118341504 Level-0 table #55: 284 bytes OK
@@ -19,4 +22,7 @@
 2020/09/01-23:04:54.707621 140304053012032 Delete type=2 #50
 2020/09/01-23:04:54.707789 140304053012032 Delete type=2 #47
 2020/09/01-23:04:54.708105 140304053012032 Delete type=2 #44
+<<<<<<< HEAD
+>>>>>>> c15dfb0... change the color of selection region and rearrange the files
+=======
 >>>>>>> c15dfb0... change the color of selection region and rearrange the files
