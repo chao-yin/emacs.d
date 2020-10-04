@@ -8,6 +8,8 @@ tramp
 /auctex
 /eaf
 /recentf
-*~
+/*~
 /url
-bookmarks
+/bookmarks
+/image-dired
+/transient
